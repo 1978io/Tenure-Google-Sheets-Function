@@ -23,10 +23,6 @@ function TENURE(startDate, termDate) {
   var months = Math.floor((dateDiffInDays%365.25)/30.5);
   var days = Math.floor(((dateDiffInDays%365.25)%30.5));
   
-  Logger.log("Years: " + years);
-  Logger.log("Months: " + months);
-  Logger.log("Days : " + days);
-  
   var tenure = years + " Years, " + months + " Months, " + days + " Days";
 
   return(tenure);
